@@ -1,0 +1,3 @@
+Q(s,a) = Q(s,a) + a(y-Q(s,a))   // gets updated at every action
+y = r + g*max{over a}(s',a')    // second term being 0 if it has reached termination.
+a is the learning rate
